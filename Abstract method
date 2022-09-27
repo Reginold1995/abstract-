@@ -1,0 +1,44 @@
+  class Bike
+{
+  public static void main(String args[]) 
+          {
+             Bike obj = new Honda4();
+              obj.run();
+             Bike obj1 = new Bajaj();
+              obj1.run();
+            Bike obj2 = new Yahama();
+              obj2.run();    
+          }
+     
+      private  void run()
+     
+}
+
+ class Honda4 extends Bike
+{
+ void run()
+      {
+         System.out.println("good maintanace");
+       }
+
+         
+ }
+ 
+  class Bajaj extends Bike
+   {
+     void run()
+      {
+         System.out.println(" not bad ");
+       }
+
+         
+ }
+  class Yahama extends Bike
+   {
+     void run()
+      {
+         System.out.println(" good performance ");
+       }
+
+         
+ }
